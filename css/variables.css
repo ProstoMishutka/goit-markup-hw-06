@@ -1,0 +1,79 @@
+:root {
+  /* Base */
+  --base-page-color: #ffffff;
+  --base-font-color: #434455;
+
+  /* Base Flexbox grid */
+  --items: 4;
+  --indent-vertical: 24px;
+  --indent-horizontal: var(--indent-vertical);
+
+  /* Base transition value */
+  --time-transition: 250ms;
+  --how-transition-timing-func: cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Logo */
+  --logo-first-color: #4d5ae5;
+  --logo-second-color: #2e2f42;
+  --footer-logo-second-color: #f4f4fd;
+
+  /* Page WebStudio */
+  /* Header */
+  --header-nav-color: #2e2f42;
+  --header-nav-hov: #404bbf;
+  --header-address-color: #434455;
+  --header-address-hov: #404bbf;
+
+  /* Hero */
+  --bg-hero: #2e2f42;
+  --hero-title-color: #ffffff;
+  --hero-button-color: #4d5ae5;
+  --hero-button-hover-color: #404bbf;
+
+  /* Values */
+  --values-bg-svg: #f4f4fd;
+  --values-title-color: #2e2f42;
+
+  /* Avtivities */
+  --activities-title-color: #2e2f42;
+
+  /* Team */
+  --team-bg: #f4f4fd;
+  --team-title-color: #2e2f42;
+  --bg-team-list-color: #ffffff;
+  --team-names-color: #2e2f42;
+  --team-icon-bg: #4d5ae5;
+  --team-icon-hover-bg: #404bbf;
+  --team-svg-color: #f4f4fd;
+
+  /* Customers */
+  --customers-item-color: #8e8f99;
+  --customers-item-hover-color: #404bbf;
+
+  /* Footer */
+  --footer-bg: #2e2f42;
+  --social-icon-color: #4d5ae5;
+  --social-icon-hover-color: #31d0aa;
+
+  /* Page Portfolio */
+  /* Portfolio button-filter*/
+  --portf-button-text-color: #4d5ae5;
+  --portf-button-hover-text-color: #ffffff;
+  --portf-button-bg: #f4f4fd;
+  --portf-button-hover-bg: #404bbf;
+  --portf-item-bg: #ffffff;
+  --portf-item-name-color: #2e2f42;
+  --portfolio-overlay-bg: #4d5ae5;
+
+  /* Backdrop */
+  --backdrop-bg: rgba(46, 47, 66, 0.4);
+
+  /* Modal window */
+  --modal-bg: rgba(252, 252, 252, 1);
+  --modal-close-btn-bg: rgba(231, 233, 252, 1);
+  --modal-close-icon-color: #2e2f42;
+  --modal-close-btn-active-bg: rgba(64, 75, 191, 1);
+  --modal-close-icon-active-color: #fff;
+  --modal-send-btn-bg: #4d5ae5;
+  --modal-send-btn-hover-bg: #404bbf;
+}
